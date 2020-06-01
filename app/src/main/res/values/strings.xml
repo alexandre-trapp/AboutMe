@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">AboutMe</string>
+    <string name="app_name">About Me</string>
+    <string name="name">Alexandre Trapp</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hy, my name is Alexandre Trapp,
+    \nI am always looking for new knowledge, technology, challenges and experiences
+    \nin the area of ​​development, web, projects and systems analysis that add
+    \nto my career; I always try to provide significant returns on my services,
+    \nwhich add to the company\'s business.
+    \n\nI like to know new technologies that help me in my day-to-day and
+    \nin my career, applying good programming practices, as well as
+    \nsharing knowledge acquired with those I work with and also
+    \nlearning from them.
+    \n\nCurrently specializing in microservices .Net core and python, azure and
+    \nmobile android with kotlin,
+    \n\nI also like to study artificial intelligence and data science,
+    \nI am fascinated with the possibilities that these technologies
+    \ngenerate for business, using python, R, PowerBI and
+    \npresentation of dashboards.</string>
 </resources>
