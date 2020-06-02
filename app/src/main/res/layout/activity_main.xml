@@ -3,6 +3,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <data>
+        <variable
+            name="myName"
+            type="com.trapp.aboutme.MyName" />
+    </data>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,18 +19,18 @@
             style="@style/NameStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/name"
+            android:text="@={myName.name}"
             android:textAlignment="center" />
 
         <EditText
             android:id="@+id/nickname_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:autofillHints=""
             android:ems="10"
             android:hint="@string/what_is_your_nickname"
             android:inputType="textShortMessage|textMultiLine|textPersonName|text|textEmailAddress"
-            android:textAlignment="center"
-            android:autofillHints="" />
+            android:textAlignment="center" />
 
         <Button
             android:id="@+id/done_button"
@@ -43,7 +49,8 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto"
             android:textAlignment="center"
-            android:visibility="invisible" />
+            android:visibility="invisible"
+            android:text="@={myName.nickname}" />
 
         <ImageView
             android:id="@+id/star_image"
